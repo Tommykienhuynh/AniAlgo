@@ -1,0 +1,33 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans&display=swap");
+
+nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0px 50px;
+  background-color: var(--main-background);
+}
+.titleContainer {
+  display: flex;
+}
+
+.titleBlue {
+  color: var(--main-blue);
+  font-size: 40px;
+  font-family: "Open Sans", sans-serif;
+}
+.titlePink {
+  color: var(--main-pink);
+  font-size: 40px;
+  font-family: "Open Sans", sans-serif;
+}
+
+.algoPicker {
+  height: 30%;
+  width: 200px;
+  font-size: 25px;
+  background-color: #131315;
+  color: var(--main-blue);
+  border-color: var(--main-pink);
+}

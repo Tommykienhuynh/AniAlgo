@@ -1,0 +1,32 @@
+.graphContainer {
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  flex-direction: row;
+  margin-left: auto;
+  margin-right: auto;
+  width: 75%;
+  height: 58vh;
+  padding-top: 10vh;
+  margin-top: 4vh;
+  align-self: center;
+  background-color: var(--main-background);
+  /*   background-color: #131315; */
+  overflow: hidden;
+  color: var(--main-blue);
+}
+
+.graphBar {
+  width: 40px;
+  background-color: var(--main-pink);
+  display: inline-block;
+  margin: 0 10px;
+  text-align: center;
+  color: white;
+  font-weight: bold;
+  font-size: 115%;
+}
+
+.graphNumTop {
+  transform: translateY(-30px);
+}
